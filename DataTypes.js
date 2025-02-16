@@ -15,4 +15,4 @@ console.log(typeof(name));
 let name = 'niroj';
 let UpperName = name. toUpperCase();
 console.log(UpperName);
-))
+
