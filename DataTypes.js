@@ -1,4 +1,4 @@
-//datatypes
+// datatypes
 /let age = 25;
 age = true;
 console.log(age);
