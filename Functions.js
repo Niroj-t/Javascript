@@ -1,4 +1,3 @@
-/*
 //Function Definition
 function SayHello(){
     console.log("Hello");
@@ -75,7 +74,6 @@ function greet(){
     console.log("Namaskar K xa khabar");
 }
 GreetMe(greet, "Niroj");
-*/
 
 //returing functions
 function multiplier(factor) {
