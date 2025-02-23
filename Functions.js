@@ -1,3 +1,4 @@
+/*
 //Function Definition
 function SayHello(){
     console.log("Hello");
@@ -55,6 +56,28 @@ const GetExpo = (x,y) =>{ //used for short and anonymous functions
 console.log(GetExpo(2,3));
 
 //returning fuunction
+function multiplier(factor) {
+    return function(number) {
+        return number * factor;
+    };
+}
+
+const double = multiplier(2);
+console.log(double(5));
+
+//function callback
+function GreetMe(greet,name){
+    console.log("Hello", name);
+    greet();
+}
+
+function greet(){
+    console.log("Namaskar K xa khabar");
+}
+GreetMe(greet, "Niroj");
+*/
+
+//returing functions
 function multiplier(factor) {
     return function(number) {
         return number * factor;
