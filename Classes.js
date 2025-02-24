@@ -1,4 +1,3 @@
-/*
 //creating class
 class student{
     //properties
@@ -14,7 +13,6 @@ class student{
 const obj = new student();
 console.log(obj.name);
 obj.study();
-*/
 
 //Getter and Setter
 class GetSet{
@@ -30,5 +28,17 @@ const obj = new GetSet();
 console.log(obj.msg);
 obj.msg = "cake";
 console.log(obj.msg);
+
+//constructor 
+class person{
+    constructor(name){
+        this.name = name;
+    }
+    intro(){
+        console.log(`Hello this is me ${this.name}`);
+    }
+}
+const obj = new person("Niroj");
+obj.intro();
 
 
