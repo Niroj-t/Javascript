@@ -1,3 +1,4 @@
+
 //Function Definition
 function SayHello(){
     console.log("Hello");
@@ -84,3 +85,10 @@ function multiplier(factor) {
 
 const double = multiplier(2);
 console.log(double(5));
+
+
+////default parameter
+function Sayname(fname,lname = "Thapa"){//set default parameter
+    console.log(`Hello ${fname} ${lname}`);
+}
+Sayname("Niroj");
