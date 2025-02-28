@@ -1,4 +1,3 @@
-/*
 //accesing elements by id
 const box1=document.getElementById("box-1");
 console.log(box1);
@@ -31,7 +30,6 @@ for(let i=0; i< boxes.length; i++){
 
 //Remove Elements
 box1.classList.remove('box');
-*/
 
 //create element
 const newPara = document.createElement("p");
