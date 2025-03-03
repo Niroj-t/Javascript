@@ -16,3 +16,15 @@ anchorElement.addEventListener('click', function(event){
     event.preventDefault();
     anchorElement.textContent = "click me Bro";
 });
+//Add listener
+let paras = document.querySelectorAll('p');*/
+ function alertpara(event){
+    alert("You clicked" + event.target.textContent);//add target properties
+}
+for(let i=0; i<paras.length; i++){
+    let para = paras[i];
+    para.addEventListener('click', alertpara);
+}
+//add listener in div
+let mydiv = document.getElementById('wrapper');
+document.addEventListener('click',alertpara);
