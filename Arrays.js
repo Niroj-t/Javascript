@@ -111,7 +111,7 @@ let fullname = "Niroj";
 for(let val of fullname){
     console.log(val);
 }
-*/
+
 //sum of array
 let arr = [10, 15, 20, 55, 90];
 function getSum(arr){
@@ -124,3 +124,4 @@ function getSum(arr){
 }
 let totalsum = getSum(arr);
 console.log(totalsum);
+*/

@@ -5,7 +5,7 @@ let arr2 = arr.reduce((sum,num)=>{
     return sum+num;
 })
 console.log(arr2);
-
+    
 //Example 2
 const cart = [
     {item:'watch',price:1500},

@@ -1,3 +1,4 @@
+/*
 //accesing elements by id
 const box1=document.getElementById("box-1");
 console.log(box1);
@@ -38,7 +39,7 @@ newPara.innerText = "This is the new paragraph";
 const container = document.getElementById('container');
 container.appendChild(newPara);
 
-
+*/
 
 
 

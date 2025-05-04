@@ -1,3 +1,4 @@
+/*
 //Object Creation using object literals
 let obj = {
     Name : "Niroj",
@@ -81,4 +82,5 @@ for(let key in src1){
 }
 console.log("src :", src2);
 console.log("des:", des3);
+*/
 

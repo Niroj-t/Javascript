@@ -1,3 +1,4 @@
+/*
 //Function Hoisting
 SayHello("Hello");
 function SayHello(string){
@@ -14,5 +15,6 @@ let FullName = "Niroj"; //it gives reference error
 
 console.log(age);
 let age = 22; ////it gives reference error
+*/
 
 

@@ -1,4 +1,4 @@
-
+/*
 function ChangeText(event){
     console.log(event);//Event Object
 let para1 = document.getElementById('para1');
@@ -17,7 +17,7 @@ anchorElement.addEventListener('click', function(event){
     anchorElement.textContent = "click me Bro";
 });
 //Add listener
-let paras = document.querySelectorAll('p');*/
+let paras = document.querySelectorAll('p');
  function alertpara(event){
     alert("You clicked" + event.target.textContent);//add target properties
 }
@@ -28,3 +28,4 @@ for(let i=0; i<paras.length; i++){
 //add listener in div
 let mydiv = document.getElementById('wrapper');
 document.addEventListener('click',alertpara);
+*/

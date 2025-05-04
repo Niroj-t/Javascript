@@ -1,3 +1,4 @@
+/*
 //Error Handling
 try{
     console.log("This is try block");
@@ -19,3 +20,4 @@ try{
 catch(e){
     throw new Error("Please Declared first and print");
 }
+*/

@@ -1,3 +1,4 @@
+/*
 //creating class
 class student{
     //properties
@@ -40,5 +41,6 @@ class person{
 }
 const obj = new person("Niroj");
 obj.intro();
+*/
 
 

@@ -1,4 +1,4 @@
-
+/*
 //if-else statement
 let age  = 16;
 if(age > 19){
@@ -49,3 +49,4 @@ switch(num){
         console.log("Error");
 
 }
+*/

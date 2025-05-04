@@ -1,4 +1,5 @@
 //creation of string
+/*
 let String = "Java";
 console.log(String);
 
@@ -30,3 +31,4 @@ console.log(str.substring(2,4));
 let str = "Hi how are you";
 let word = str.split(' ');
 console.log(word);
+*/

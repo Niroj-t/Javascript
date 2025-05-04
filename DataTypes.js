@@ -1,3 +1,4 @@
+/*
 // datatypes
 /let age = 25;
 age = true;
@@ -15,4 +16,4 @@ console.log(typeof(name));
 let name = 'niroj';
 let UpperName = name. toUpperCase();
 console.log(UpperName);
-
+*/

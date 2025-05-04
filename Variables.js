@@ -1,7 +1,7 @@
+/*
 //creating variables using 'var'
 var x=25;
 console.log(x);
-
 //example of function scoped
 function demo()
 {
@@ -42,3 +42,4 @@ value not changed
 const age = 40;
 age = 40;
 console.log(age); // throw error
+*/
